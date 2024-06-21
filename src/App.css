@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+/* /images/banner.jpg" */
+.bannercover{
+  background: url("/public/images/banner.png");
+  object-fit: cover;
+  object-position: center;
+  background-repeat:no-repeat;
+  background-position: center;
+  height: 680px;
+}
+.navbar-toggler-icon {
+  background-image: url("https://images.pexels.com/photos/313700/pexels-photo-313700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  width: 2em !important;
+  height: 2em !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.enquire {
+  padding: 12px 44px;
+  border: 2px solid rgba(23, 171, 255, 1);
+  color: rgba(23, 171, 255, 1);
+  background: transparent;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: background-color 0.5s ease; /* Add transition for background-color */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.enquire:hover {
+  background: rgba(23, 171, 255, 1); /* Background color change on hover */
+  color: #fff; /* Optional: Change text color on hover for better contrast */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.coupon{
+  background-color: rgba(0, 0, 0, 0.421);
+  color: #E7EBEF;
+  padding: 5px;
+  margin: 10px;
+  border-left: 2px solid  #17ABFF;
+  height: 39px;
+  width: 305px;
+  padding-left: 10px;
+  font-weight: 400;
+
+ 
+}
+.couponwrap{
+  padding-top: 45px;
+}
+.pricingdiv{
+  background-color: #41506345;
+  backdrop-filter: blur(10px);
+  padding: 2px;
+  border-radius: 10px 10px 0px 0px;
   color: white;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+ padding: 20px 40px 20px 40px;
+ text-align: left;
+}
+.belowpricing{
+  background-color: #3d526787;
+  backdrop-filter: blur(10px);
+  border-radius: 0px 0px 10px 10px;
+  color: white;
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  padding: 5px 38px 1px 38px;
+  border-top: 1px solid black;
+
+
+}
+.bannerhead{
+  font-size: 48px;
+  padding-top: 40px;
+}
+.bannerheadblue{
+  color:#17ABFF ;
 }
 
-.App-link {
-  color: #61dafb;
+.footer{
+  background-color: rgba(9, 29, 65, 1);
+  color: rgba(252, 252, 252, 1);
+}
+.bedroomtxt{
+  font-size: 25px;
+  font-weight: 700;
+}
+.presentbtn{
+  background-color: #17ABFF;
+  padding: 15px 40px 15px 40px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+
+  transition: background-color 0.5s ease; 
+}
+.presentbtn:hover {
+  background-color: transparent; /* New background color on hover */
+  border: 2px solid white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+
+.pricetxt{
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: #98C5E8;
+  font-size: 13px;
+}
+.startxt{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: #FCFCFC;
+  letter-spacing: 1px;
+  padding-top: 10px;
+}
+.digit{
+  font-size: 48px;
+  font-weight: 500;
+}
+.million{
+  font-size: 24px;
+  font-weight: 400;
+}
+.navbar-toggler{
+  /* background-color: red !important; */
+  color: white !important;
+  border: none !important;
+}
+.navbar-toggler-icon{
+  background-image: url('/public/images/hamburger.png') !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1.5em;
+  height: 1.5em;
+  
+}
+.navbar-light .navbar-toggler-icon{
+   color: white !important;
+}
+@media screen and (max-width: 997px) {
+  .bannercover{
+    height: 860px;
+  }.coupontxt{
+    display: none;
+  }.coupon{
+    width: 0;
+  }.couponwrap{
+    padding-top: 5px;
+  }.bannerhead {
+    padding-top: 10px;
+    font-size: 37px;
+  }.bedroomtxt{
+    font-size: 14px;
+  }.belowpricing{
+   margin-bottom: 30px;
   }
 }

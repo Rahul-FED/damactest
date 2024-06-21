@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
+import Gallery from './components/Gallery';
+import HarbourLight from './components/HarbourLight';
+import Footer from './components/Footer';
+import Book from './components/Book';
+import Banner from './components/Banner';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
+import Navbar from './components/Navbar';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <>
+    
+    <Banner/>
+    <Book/>
+    <HarbourLight/>
+    <Gallery/>
+    <Footer/>
+  </>
+  )
 }
 
-export default App;
+export default App

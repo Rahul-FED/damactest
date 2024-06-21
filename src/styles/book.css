@@ -1,0 +1,17 @@
+.bookwraper{
+    background-color:#F4F9FF ;
+}
+.booktxt{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #00357B;
+}
+.booksubtxt{
+    font-weight: 500;
+    font-size: 30px;
+    color: #00357B;
+}
+.bookimg{
+    margin: 0 auto;
+    display:flex;
+}

@@ -1,0 +1,108 @@
+.harbourcardtxt{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: rgba(0, 53, 123, 1);
+    font-weight: 600;
+    padding-top: 70px;
+    text-align: center;
+}
+.cardwrap{
+
+}
+.cardimg{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+.shadowcard{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 20px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+.subtext{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: rgba(0, 53, 123, 1);
+    font-weight: 600;
+    text-align: center;
+}
+.ext{
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 53, 123, 1);
+    padding: 15px 45px 15px 45px;
+    border: none;
+    font-weight: 700;
+    transition: background-color 0.5s ease; 
+}
+.ext:hover{
+    border-radius: 5px;
+    color: #00357B;
+    background-color: transparent;
+    padding: 15px 45px 15px 45px;
+    border: none;
+    font-weight: 700;
+    border: 2px solid #00357B;
+}
+.int{
+    border-radius: 5px;
+    color: #00357B;
+    border: 2px solid #00357B !important;
+    padding: 15px 45px 15px 45px;
+    border: none;
+    background-color: white;
+    font-weight: 700;
+    transition: background-color 0.5s ease; 
+}
+.int:hover{
+    border-radius: 5px;
+    background-color: #00357B;
+    padding: 15px 45px 15px 45px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    transition: background-color 0.5s ease; 
+}
+.btnwrap{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+.tc{
+    color: rgba(104, 104, 104, 1);
+    letter-spacing: 3%;
+    text-align: end;
+    font-weight: 300;
+
+}
+.harbourimg{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+}
+.harbourhead{
+    text-align: center;
+    font-size: 36px;
+    color: #00357B;
+}
+.featuresub{
+    text-align: center;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.bookwraper{
+}
+
+@media (max-width:997px){
+    .tc{
+      text-align: center !important;
+      margin-top: 40px !important;
+    
+    }.btnwrap{
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+}
